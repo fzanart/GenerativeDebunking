@@ -459,7 +459,7 @@ initial_prompts = [{'role':'user', 'content':initial_prompt1},
                    {'role':'user', 'content':initial_prompt37}]
 
 
-with open('initial_prompts.json', 'w') as f:
+with open('prompts/initial_prompts.json', 'w') as f:
     json.dump(initial_prompts, f)
 
 
@@ -511,7 +511,7 @@ TITLE, FACT1, MYTH, FALLACY, FACT2
 | Something must be wrong | Maintaining that “something must be wrong” and the official account is based on deception, even when specific parts of a conspiracy theory become untenable. | “Ok, fine, 97% of climate scientists agree that humans are causing global warming, but that's just because they're toeing the party line.” |
 | Straw Man | Misrepresenting or exaggerating an opponent's position to make it easier to attack. | “In the 1970s, climate scientists were predicting an ice age.” |"""
 
-with open('initial_prompt_v2.json', 'w') as f:
+with open('prompts/initial_prompt_v2.json', 'w') as f:
     json.dump(initial_prompt_v2, f)
 
 
@@ -542,5 +542,25 @@ TITLE, FACT1, MYTH, FALLACY, FACT2
 | Hasty generalization | An informal fallacy wherein a conclusion is drawn about all or many instances of a phenomenon on the basis of one or a few instances of that phenomenon is an example of jumping to conclusions.| '“In Albany, New York, the high temperature of 74 degrees on Thursday was the warmest temperature on record for any day during the months of December, January and February.”' |
 """
 
-with open('initial_prompt_v2.json', 'w') as f:
+with open('prompts/initial_prompt_v2.json', 'w') as f:
     json.dump(initial_prompt_v2, f)
+
+
+initial_prompt_v3_intro = """You are a bot with the mission to identify common logical fallacies and flawed reasoning in text segments. Below is a table with the fallacies you have to identify, including their definitions and examples. Please identify the fallacy in the given text segment enclosed in triple backticks (`). If the text segment does not contain a fallacy, please label it as "no fallacy."""
+
+
+initial_prompt_v3_table = """| TECHNIQUE | DEFINITION | EXAMPLE |
+|---|---|---|
+| Ambiguity | Using ambiguous language in order to lead to a misleading conclusion. | “Thermometer readings have uncertainty which means we don't know whether global warming is happening.” |
+| Cherry Picking | Carefully selecting data that appear to confirm one position while ignoring other data that contradicts that position. | “Global warming stopped in 1998.” |
+| Fake Experts | Presenting an unqualified person or institution as a source of credible information. | “A retired physicist argues against the climate consensus, claiming the current weather change is just a natural occurrence.” |
+| False Analogy | Assuming that because two things are alike in some ways, they are alike in some other respect. | “Climate skeptics are like Galileo who overturned the scientific consensus about geocentrism.” |
+| Oversimplification | Simplifying a situation in such a way as to distort understanding, leading to erroneous conclusions. | “CO2 is plant food so burning fossil fuels will be good for plants.” |
+| Red Herring | Deliberately diverting attention to an irrelevant point to distract from a more important point. | “CO2 is a trace gas so it's warming effect is minimal.” |
+| Straw Man | Misrepresenting or exaggerating an opponent's position to make it easier to attack. | “In the 1970s, climate scientists were predicting an ice age.” |"""
+
+initial_prompt_v3_instr = """Simply identify the fallacy in the following text, do not add nothing else than its label:"""
+
+for file_name, var in zip(['prompts/initial_prompt_v3_intro.json', 'prompts/initial_prompt_v3_table.json', 'prompts/initial_prompt_v3_instr.json'],[initial_prompt_v3_intro, initial_prompt_v3_table, initial_prompt_v3_instr]):
+    with open(file_name, 'w') as f:
+        json.dump(var, f)

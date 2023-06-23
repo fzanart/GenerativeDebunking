@@ -1,0 +1,19 @@
+{
+    "P1": {
+        "premise": "Climate has changed due to natural causes in the Earth's past.",
+        "technique": "Logical Fallacies",
+        "yes/no": "YES",
+        "explanation": "The premise commits the logical fallacy of false equivalence. It assumes that because climate has changed naturally in the past, the current climate change must also be natural. This ignores the overwhelming scientific evidence that human activities, particularly the burning of fossil fuels, are the primary cause of current climate change."
+    },
+    "P2": "Climate is changing now.",
+    "C": "Therefore, current climate change must be natural.",
+    "A": "Climate has changed due to natural causes in the Earth's past and climate is changing now. Therefore current climate change must be natural.",
+    "valid": "FALSE",
+    "reason": "This argument is logically invalid. Just because climate has changed naturally in the past and is changing now, it does not necessarily mean that current climate change is natural. There could be other factors contributing to the current climate change, such as human activities.",
+    "HP": {
+        "premise": "There are no other factors that could be causing the current climate change besides natural causes.",
+        "technique": "Single Cause",
+        "yes/no": "YES",
+        "explanation": "The premise is an example of the Single Cause fallacy because it assumes that there is only one cause for climate change, which is natural causes. This ignores the possibility that human activities, such as burning fossil fuels and deforestation, are contributing to climate change."
+    }
+}

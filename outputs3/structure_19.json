@@ -1,0 +1,12 @@
+{
+    "P1": {
+        "premise": "Species have shown resilience to climate change now or in the past.",
+        "technique": "Logical Fallacies",
+        "yes/no": "NO",
+        "explanation": "The premise is a statement of fact and does not contain an argument. It is not a logical fallacy."
+    },
+    "C": "Therefore, species can adapt to climate change.",
+    "A": "Species have shown resilience to climate change either now or in the past. Therefore species can adapt to climate change.",
+    "valid": "TRUE",
+    "reason": "This argument is logically valid. If species have shown resilience to climate change in the past or present it is reasonable to conclude that they can adapt to climate change."
+}

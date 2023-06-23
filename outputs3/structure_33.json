@@ -1,0 +1,18 @@
+{
+    "P1": {
+        "premise": "There is an abundance of fossil fuel resources.",
+        "technique": "Slothful Induction",
+        "yes/no": "NO",
+        "explanation": "The premise is not a conclusion drawn from a lack of evidence, but rather a statement of fact. Therefore, it does not fit the definition of slothful induction."
+    },
+    "C": "Therefore we should keep using fossil fuel.",
+    "A": "There is an abundance of fossil fuel resources. Therefore we should keep using fossil fuel.",
+    "valid": "FALSE",
+    "reason": "The argument is logically invalid. The premise that there is an abundance of fossil fuel resources does not logically lead to the conclusion that we should keep using fossil fuels. There may be other reasons to transition to alternative energy sources such as environmental concerns or economic benefits.",
+    "HP": {
+        "premise": "If a resource is abundant, it is the best option to use.",
+        "technique": "False Dilemma",
+        "yes/no": "YES",
+        "explanation": "The premise presents a false dilemma by suggesting that the only options are to use an abundant resource or not use it at all. This ignores the possibility that there may be other factors to consider, such as the environmental impact or the long-term sustainability of the resource."
+    }
+}

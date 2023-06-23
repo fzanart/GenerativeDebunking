@@ -1,0 +1,18 @@
+{
+    "P1": {
+        "premise": "Governments and politicians support the mainstream view on climate change.",
+        "technique": "Red Herring",
+        "yes/no": "NO",
+        "explanation": "The premise is a statement of fact and does not divert attention from a more important point. It is not a red herring."
+    },
+    "C": "Therefore governments are biased and untrustworthy.",
+    "A": "Governments and politicians support the mainstream view on climate change. Therefore governments are biased and untrustworthy.",
+    "valid": "FALSE",
+    "reason": "This argument is logically invalid. Just because governments and politicians support the mainstream view on climate change, it does not necessarily mean that they are biased and untrustworthy. The conclusion does not logically follow from the premise.",
+    "HP": {
+        "premise": "If a group or individual supports a particular view, they are biased and untrustworthy.",
+        "technique": "Ad Hominem",
+        "yes/no": "YES",
+        "explanation": "The argument attacks the group or individual instead of addressing their arguments. It implies that their view is untrustworthy simply because they support it, without providing any evidence to support this claim."
+    }
+}

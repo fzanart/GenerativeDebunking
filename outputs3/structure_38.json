@@ -1,0 +1,12 @@
+{
+    "P1": {
+        "premise": "Climate model predictions don't match observations.",
+        "technique": "Logical Fallacies",
+        "yes/no": "YES",
+        "explanation": "The premise is an example of a logical fallacy known as cherry-picking. It is cherry-picking because it selectively focuses on one aspect of climate science, namely the discrepancy between climate model predictions and observations, while ignoring the broader context of the overwhelming evidence for anthropogenic climate change. Climate models are not perfect, but they are one of many lines of evidence that support the conclusion that humans are causing global warming."
+    },
+    "C": "Therefore, climate models are unreliable.",
+    "A": "Climate model predictions don't match observations. Therefore climate models are unreliable.",
+    "valid": "TRUE",
+    "reason": "This argument is logically valid because if the premise is true that climate model predictions don't match observations, then it logically follows that the models are unreliable. However, it is important to note that this argument alone does not provide evidence that all climate models are completely unreliable, as there may be other factors at play that could explain the discrepancies between predictions and observations."
+}

@@ -1,0 +1,19 @@
+{
+    "P1": {
+        "premise": "Solving climate change will be difficult and expensive.",
+        "technique": "Logical Fallacies",
+        "yes/no": "NO",
+        "explanation": "The premise is a statement of fact and does not contain an argument or a conclusion. Therefore, it cannot be classified as a logical fallacy."
+    },
+    "P2": "Making the technical transition or getting global agreement will be difficult.",
+    "C": "Therefore, solving climate change is too difficult.",
+    "A": "Solving climate change will be difficult and expensive and making the technical transition or getting global agreement will be difficult. Therefore solving climate change is too difficult.",
+    "valid": "FALSE",
+    "reason": "The argument is logically invalid. The conclusion does not necessarily follow from the premises. The premises only state that solving climate change will be difficult and expensive, and that making the technical transition or getting global agreement will be difficult. However, this does not mean that solving climate change is impossible or too difficult to achieve.",
+    "HP": {
+        "premise": "If something is difficult or expensive, it is not worth doing.",
+        "technique": "False Dilemma",
+        "yes/no": "YES",
+        "explanation": "The premise presents a false dilemma by suggesting that there are only two options: something is either worth doing or not worth doing based solely on its difficulty or expense. This is a false dichotomy because there are many factors that can determine whether something is worth doing or not, and difficulty or expense are just two of them."
+    }
+}

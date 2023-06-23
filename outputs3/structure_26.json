@@ -1,0 +1,19 @@
+{
+    "P1": {
+        "premise": "Green jobs are a small proportion of overall jobs.",
+        "technique": "Ambiguity",
+        "yes/no": "NO",
+        "explanation": "The premise is a factual statement that does not use ambiguous language to lead to a misleading conclusion. It is a statement of fact that can be verified through data."
+    },
+    "P2": "Green jobs are growing slowly.",
+    "C": "Therefore, green jobs won't work.",
+    "A": "Green jobs are a small proportion of overall jobs and are growing slowly. Therefore green jobs won't work.",
+    "valid": "FALSE",
+    "reason": "The argument is logically invalid. The conclusion does not necessarily follow from the premises. Just because green jobs are a small proportion of overall jobs and are growing slowly, it does not mean that they won't work. The argument ignores the potential for future growth and the positive impact that green jobs can have on the environment and economy.",
+    "HP": {
+        "premise": "Only industries with a large proportion of overall jobs and fast growth rates are viable.",
+        "technique": "False Dilemma",
+        "yes/no": "YES",
+        "explanation": "The premise presents a false dilemma by suggesting that only industries with a large proportion of overall jobs and fast growth rates are viable, ignoring the possibility of other factors that could make an industry viable."
+    }
+}

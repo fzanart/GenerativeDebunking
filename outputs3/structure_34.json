@@ -1,0 +1,18 @@
+{
+    "P1": {
+        "premise": "Fossil fuels are the cheapest form of energy.",
+        "technique": "False Dilemma",
+        "yes/no": "NO",
+        "explanation": "The premise presents a false dilemma by suggesting that fossil fuels are the only option for cheap energy. This is not true as there are other forms of energy that are becoming increasingly cost-competitive, such as wind and solar power. Additionally, the premise ignores the external costs associated with fossil fuels, such as air pollution and climate change, which are not factored into the market price of fossil fuels."
+    },
+    "C": "Therefore, we should use fossil fuel energy.",
+    "A": "Fossil fuels are the cheapest form of energy. Therefore we should use fossil fuel energy.",
+    "valid": "FALSE",
+    "reason": "This argument is logically invalid. Just because fossil fuels are the cheapest form of energy, it does not necessarily mean that we should use them. There may be other factors to consider such as environmental impact, long-term sustainability, and availability of alternative energy sources. Therefore, the conclusion does not logically follow from the premise.",
+    "HP": {
+        "premise": "The cheapest form of energy is always the best option to use.",
+        "technique": "False Dilemma",
+        "yes/no": "YES",
+        "explanation": "The premise presents a false dilemma by suggesting that there are only two options: the cheapest form of energy or other more expensive forms of energy. This is a false dichotomy because there are other factors to consider when choosing an energy source, such as environmental impact, sustainability, and long-term costs."
+    }
+}

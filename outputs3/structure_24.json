@@ -1,0 +1,24 @@
+{
+    "P1": {
+        "premise": "Clean energy has costs on the economy.",
+        "technique": "False Choice",
+        "yes/no": "YES",
+        "explanation": "The premise presents a false choice between clean energy and a strong economy, implying that the two are mutually exclusive. In reality, clean energy can have economic benefits, such as job creation and reduced healthcare costs from air pollution."
+    },
+    "P2": {
+        "premise": "Clean energy has costs on the environment.",
+        "technique": "False Dilemma",
+        "yes/no": "NO",
+        "explanation": "The premise presents a false dilemma by suggesting that the only options are clean energy or no environmental costs. In reality, all forms of energy production have some impact on the environment, but clean energy generally has lower environmental costs than fossil fuels. Therefore, the premise is not a valid argument."
+    },
+    "C": "Therefore, clean energy is harmful.",
+    "A": "Clean energy has costs on the economy and the environment. Therefore clean energy is harmful.",
+    "valid": "FALSE",
+    "reason": "This argument is logically invalid. The premises state that clean energy has costs on the economy and the environment, but it does not necessarily follow that clean energy is harmful. The argument ignores the potential benefits of clean energy, such as reducing pollution and dependence on non-renewable resources. Therefore, the conclusion does not logically follow from the premises.",
+    "HP": {
+        "premise": "Anything that has costs on the economy and the environment is harmful.",
+        "technique": "False Dichotomy",
+        "yes/no": "NO",
+        "explanation": "The premise presents a false dichotomy by suggesting that anything that has costs on the economy and the environment is harmful. This is not necessarily true, as some actions may have costs but also have benefits that outweigh those costs. Additionally, some actions may have costs that are harmful to the economy or environment in the short term, but beneficial in the long term."
+    }
+}

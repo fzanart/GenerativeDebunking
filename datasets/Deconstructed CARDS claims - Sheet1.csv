@@ -1,0 +1,145 @@
+Code,Claim (short version),Long claim (w/o hidden premise),Fallacy 1,Fallacy 2,Fallacy 3,Fallacy 4,General argument structure,Hidden premise,Denial technique
+1.1.1.,Antarctica isn't melting,Antarctic sea ice is increasing. Therefore global warming is not happening.,Cherry picking,Slothful induction,Impossible expectations,Single cause,"P1: Antarctica is cooling.
+P2: Sea ice is increasing.
+C: Global warming is not happening",P3: Cooling is the only driver of sea ice gain therefore global warming is not happening,"P1: Cherry picking
+P2: Slothful induction
+P3: Impossible expectations
+P4: Single cause"
+1.1.2.,Greenland isn't melting.,Parts of Greenland's ice sheet are not melting. Therefore global warming is not happening.,Cherry picking,Single cause,Impossible expectations,,"P1: Parts of Greenland's ice sheet are not melting.
+C: Global warming is not happening.",P2: All parts of ice sheets must be melting under global warming.,"P1: Cherry picking
+P2: Single cause, Impossible expectations"
+1.1.3.,Arctic isn’t melting,"In the short term, Arctic sea ice hasn't changed much. Therefore Arctic sea ice is fine.",Cherry picking,,,,"P1: In the short term, Arctic sea ice hasn't changed much.
+C: Arctic sea ice is fine.","P2: If Arctic sea ice maximum extent hasn't changed much in the short-term, then Arctic sea ice is fine in the long-term.",P2: Cherry picking
+1.1.4.,Glaciers aren’t melting,Glaciers are growing in some regions. Therefore glaciers are fine.,Cherry picking,Oversimplification,,,"P1: Glaciers are growing in some regions
+C: Glaciers are fine.","P2: If glaciers are growing anywhere in the world, then glaciers must be fine.","P2: Cherry picking, Oversimplification"
+1.2,Heading into an ice age,"Current climate change is driven by natural factors and natural factors are currently having a cooling effect.
+If natural cooling continues, we will experience more cooling in the future.",Cherry picking,Slothful induction,Misrepresentation,,"P1: Current climate change is driven by natural factors.
+P2: Natural factors are currently having a cooling effect.
+C: If natural cooling continues, we will experience more cooling in the future.",P3: Greenhouse gasses don't have much of a warming effect.,"P1: Cherry picking, Slothful induction
+P3: Misrepresentation"
+1.3,Weather is cold,Cold weather events are occuring. Therefore global warming is not happening.,Anecdote,Impossible expectations,,,"P1: Cold weather events are occuring.
+C: Global warming is not happening.","P2: If global warming was happening, we wouldn't experience cold events.","P1: Anecdote
+P2: Impossible expectations"
+1.4,Hiatus on warming,There's been no warming over a short period. Therefore global warming is not happening.,Cherry picking,Slothful induction,Misrepresentation,Cherry picking,"P1: There's been no warming over a short period.
+C: Global warming is not happening.",P2: Short time periods are sufficient to make conclusions about climate trends.,"P1: Cherry picking, Slothful induction
+P2: Misrepresentation, Cherry picking"
+1.6,Sea level rise is exaggerated,Sea levels within a specific time period or region have not shown dramatic increase. Therefore sea level rise is exaggerated.,Cherry picking,Slothful induction,Oversimplification,,"P1: Sea levels within a specific time period or region have not shown dramatic increase.
+C: Sea level rise is exaggerated.","P2: Results from a narrow set of sea level rise data can be generalized more broadly.
+P3: Regional factors like subsidence are not a factor in sea level measurements.","P1: Cherry picking
+P2: Slothful induction
+P3: Oversimplification"
+1.7,Extremes aren't increasing,Extreme weather happened in the past before recent global warming. Therefore global warming is not linked to extreme weather.,Single cause,Cherry picking,,,"P1: Extreme weather happened in the past before recent global warming.
+C: Global warming is not linked to extreme weather.","P2: If global warming didn't affect past extreme weather, they mustn't be affecting current extreme weather either.
+P3: The frequency or intensity of extreme weather isn't getting worse.","P2: Single cause
+P3: Cherry picking"
+2.1.1.,It's the sun,There is a link between solar activity and climate. Therefore recent climate change is caused by the sun.,Slothful induction,Single cause,,,"P1: There is a link between solar activity and climate.
+C: Recent climate change is caused by the sun.","P2: If the sun can affect climate, it must be affecting current climate change.","P1: Slothful induction
+P2: Single cause"
+2.1.2.,It’s geological,Heat is flowing from geothermal sources. Therefore warming is not caused by Humans.,Single cause,Slothful induction,,,"P1: Heat is flowing from geothermal sources.
+C: Warming is not caused by Humans.",P2: Natural geological processes are the only cause of warming.,"P2: Single cause, Slothful induction"
+2.1.3.,It’s the ocean,Ocean cycles influence global temperature. Therefore ocean cycles are causing global warming.,Single cause,False equivalence,,,"P1: Ocean cycles influence global temperature.
+C: Ocean cycles are causing global warming.","P2: If ocean cycles affect global temperatures in the short term, then they must affect them in the long term.","P2 Single cause, False equivalence"
+2.1.4.,Past climate change,Climate has changed due to natural causes in the Earth's past and climate is changing now. Therefore current climate change must be natural.,False equivalence,Single cause,,,"P1: Climate has changed due to natural causes in the Earth's past.
+P2: Climate is changing now.
+C: Current climate change must be natural.","P3: Current climate change is similar to past climate change.
+P4: What caused climate change in the past must be the same as what's causing climate change now.","P3: False equivalence
+P4: Single cause"
+2.3.1.,CO2 is a trace gas,"CO2 is a trace gas, comprising only a small component of the atmosphere. Therefore CO2 cannot be the main cause of global warming.",Misrepresentation,,,,"P1: CO2 is a trace gas, comprising only a small component of the atmosphere.
+C: CO2 cannot be the main cause of global warming.","P2: If there is a small percentage of CO2 in the atmosphere, its warming potential is low.",P2: Misrepresentation
+2.3.2.,Greenhouse effect is saturated,CO2 has a diminishing warming effect with higher concentrations. Therefore adding more CO2 to the atmosphere will have a negligible impact on warming.,Oversimplification,,,,"P1: CO2 has a diminishing warming effect with higher concentrations.
+C: Adding more CO2 to the atmosphere will have a negligible impact on warming.",P2: CO2 is saturated in all levels of the atmosphere.,P2: Oversimplification
+2.3.3.,CO2 lags climate,CO2 lagged temperature in the past. Therefore CO2 does not drive temperature.,Slothful induction,False choice,,,"P1: CO2 lagged temperature in the past.
+C: CO2 does not drive temperature.","P2: If temperature affects CO2, then CO2 cannot affect temperature.","P1: Slothful induction
+P2: False choice"
+2.3.4.,Water vapour,Water vapor is more heat-trapping or plentiful than CO2. Therefore water vapor contributes more to global warming than CO2.,Misrepresentation,,,,"P1: Water vapor is more heat-trapping or plentiful than CO2.
+C: Water vapor contributes more to global warming than CO2.",P2: The warming of a greenhouse gas depends on quantity or heat-trapping ability.,P2: Misrepresentation
+2.3.5.,Tropospheric hot spot,Greenhouse warming should cause a tropospheric hot spot over the tropics and the hot spot hasn't been observed. Therefore global warming is not caused by greenhouse gases.,Slothful induction,Misrepresentation,,,"P1: Greenhouse warming should cause a tropospheric hot spot over the tropics.
+P2: The hot spot hasn't been observed.
+C: Global warming is not caused by greenhouse gases.","P3: If there's a discrepancy between models and observations, the models must be wrong.
+P4: The hot spot is a unique fingerprint of greenhouse warming.","P2: Slothful induction
+P3: Misrepresentation
+P4: Misrepresentation"
+3.1,Sensitivity is low,Negative feedbacks in the climate system reduce warming. Therefore climate sensitivity to CO2 emissions is low.,Slothful Induction,,,,"P1: Negative feedbacks in the climate system reduce warming.
+C: Climate sensitivity to CO2 emissions is low.",P2: Negative feedbacks cancel out the positive feedbacks.,P2: Slothful Induction
+3.2.1.,Species can adapt,Species have shown resilience to climate change either now or in the past. Therefore species can adapt to climate change.,Cherry picking,Slothful induction,False equivalence,,"P1: Species have shown resilience to climate change either now or in the past.
+C: Species can adapt to climate change.",P2: Species have been resilient to date so they will continue to be resilient in the future.,"P1: Cherry picking
+P2: Slothful induction, False equivalence"
+3.2.2.,Polar bears are ok,Polar bear populations are increasing in some regions. Therefore global warming is not harming polar bear populations.,Cherry picking,Oversimplification,,,"P2: Polar bear populations are increasing in some regions.
+C: Global warming is not harming polar bear populations.",P2: Polar bear populations cannot be increasing anywhere under global warming.,"P1: Cherry picking
+P2: Oversimplification"
+3.2.3.,Oceans are ok,Coral reefs are resilient against acidification and bleaching. Therefore climate change impacts on coral reefs are not serious.,Cherry picking,Oversimplification,Slothful induction,,"P1: Coral reefs are resilient against acidification and bleaching.
+C: Climate change impacts on coral reefs are not serious.","P2: Acidification or bleaching alone are the only negative climate change impacts on coral reefs.
+P3: If one species shows resilience to climate change, we can assume other species will also be resilient.
+P4: Current climate change will be no more harmful than past climate change.","P2: Cherry picking
+P3: Oversimplification
+P4: Slothful induction"
+3.3.1.,CO2 is plant food,CO2 is beneficial for plant growth. Therefore emitting more CO2 will be good for plants.,Slothful induction,Cherry picking,,,"P1: CO2 is beneficial for plant growth.
+C: Emitting more CO2 will be good for plants.",P2: Increased CO2 only has beneficial effects for plants.,"P2: Slothful induction, Cherry picking"
+4.1.1.,Policy increases cost,Climate policy increases energy costs and increased energy costs will have harmful effects. Therefore climate policy is harmful.,Oversimplification,Slothful induction,Oversimplification,,"P1: Climate policy increases energy costs.
+P2: Increased energy costs will have harmful effects.
+C: Climate policy is harmful.","P3: The cost of climate action is greater than the cost of climate impacts.
+P4: Climate action doesn't have any positive benefits.","P1: Oversimplification
+P4: Slothful induction
+P5: Oversimplification"
+4.1.3.,Policy harms the environment,Clean energy has costs on the economy and the environment. Therefore clean energy is harmful.,Cherry picking,,,,"P1: Clean energy has costs on the economy and the environment.
+C: Clean energy is harmful.",P2: The negatives of clean energy outweigh the benefits.,P2: Cherry picking
+4.1.5.,Limits freedoms,Climate policy limits the choices available to people and communities. Therefore climate policy reduces people's freedom.,Oversimplification,Cherry picking,,,"P1: Climate policy limits the choices available to people and communities.
+C: Climate policy reduces people's freedom.","P2: Failing to act on climate change will have no impact on people's freedom.
+P3: Regulations only have negative impacts on people.","P2: Oversimplification
+P3: Cherry picking"
+4.2.1.,Green jobs don't work,Green jobs are a small proportion of overall jobs and are growing slowly. Therefore green jobs won't work.,Impossible expectations,Slothful induction,Oversimplification,,"P1: Green jobs are a small proportion of overall jobs and are growing slowly.
+C: Green jobs won't work.","P2: The growth rate of green jobs will remain the same over time.
+P3: Economic factors are all that matter when considering green jobs.","P1: Impossible expectations
+P2: Slothful induction
+P3: Oversimplification"
+4.2.3.,Policy impact is negligible,A single policy would have a negligible impact. Therefore we should not have the policy.,Impossible expectations,,,,"P1: A single policy would have a negligible impact.
+C: We should not have the policy.","P2: If a single policy doesn't solve the problem, then it is not worth implementing.",P2: Impossible expectations
+4.2.5.,Better to adapt,Climate action reduces wealth and wealth increases resilience to climate action. Therefore it is better to adapt to climate change than to mitigate it.,Cherry picking,Slothful induction,,,"P1: Climate action reduces wealth.
+P2: Wealth increases resilience to climate action.
+C: It is better to adapt to climate change than to mitigate it.",P3: Failing to mitigate climate change won't have an impact on our wealth or ability to adapt to climate change.,"P1: Cherry picking
+P3: Slothful induction"
+4.2.6.,China's emissions,Developing countries are not doing enough to share the burden of reducing global emissions and one country cutting emissions will make a negligible difference to global emissions. Therefore one country reducing emissions is pointless.,Oversimplification,Impossible expectations,,,"P1: Developing countries are not doing enough to share the burden of reducing global emissions.
+P2: One country cutting emissions will make a negligible difference to global emissions.
+C: One country reducing emissions is pointless.","P3: One country shouldn't reduce emissions if their action alone won't reduce global emissions.
+P4: All countries are the same so they should be held to the same emission reduction standards.","P1: Oversimplification
+P3: Impossible expectations
+P4: Oversimplification"
+4.3.1. ,Policy is too difficult,Solving climate change will be difficult and expensive and making the technical transition or getting global agreement will be difficult. Therefore solving climate change is too difficult.,Hasty generalization,Circular reasoning,,,"P1: Solving climate change will be difficult and expensive.
+P2: Making the technical transition or getting global agreement will be difficult.
+C: Solving climate change is too difficult.","P3: Because emission reduction and political agreement is difficult, it can't be done.","P3: Hasty generalization, Circular reasoning"
+4.3.2.,Low public support,Much of the public aren't convinced about the need for climate action. Therefore political action on climate change is too hard.,Cherry picking,Slothful induction,,,"P1: Much of the public aren't convinced about the need for climate action.
+C: Political action on climate change is too hard.","P2: Without public support, climate policy is impossible.
+P3: Current levels of public support for climate action will stay the same in the future.","P1: Cherry picking
+P3: Slothful induction"
+4.4.1.,Clean energy unreliable,Clean energy has costs on the economy and the environment. Therefore clean energy is harmful.,Cherry picking,,,,"P1: Clean energy has costs on the economy and the environment.
+C: Clean energy is harmful.",P2: The negatives of clean energy outweigh the benefits.,P2: Cherry picking
+4.5.1.,Fossil fuels are plentiful,There is an abundance of fossil fuel resources. Therefore we should keep using fossil fuel.,Slothful induction,,,,"P1: There is an abundance of fossil fuel resources.
+C: We should keep using fossil fuel.","P2: If we have fossil fuels, we should use them rather than other sources.",P2: Slothful induction
+4.5.2.,Fossil fuels are cheap,Fossil fuels are the cheapest form of energy. Therefore we should use fossil fuel energy.,Slothful induction,Oversimplification,,,"P1: Fossil fuels are the cheapest form of energy.
+C: We should use fossil fuel energy.",P2: Cheaper costs are more important than other factors like climate change impacts.,"P1: Slothful induction
+P2: Oversimplification"
+5.1.1.,No consensus,There's not enough evidence to know what's happening with climate change. Therefore there's no scientific consensus on climate change.,Slothful induction,Impossible expectations,,,"P1: There's not enough evidence to know what's happening with climate change.
+C: There's no scientific consensus on climate change.",,"P1: Slothful induction, Impossible expectations"
+5.1.2.,Proxies are unreliable,Proxy data is affected by non-climate factors and measuring limitations. Therefore climate proxies are unreliable.,Misrepresentation,,,,"P1: Proxy data is affected by non-climate factors and measuring limitations.
+C: Climate proxies are unreliable.",P2: Scientists don't know how to adjust for limitations and other factors.,P2: Misrepresentation
+5.1.3.,Temp is unreliable,Temperature data is affected by non-climate factors and measuring limitations. Therefore the temperature record is unreliable.,Slothful induction,Red Herring,,,"P1: Temperature data is affected by non-climate factors and measuring limitations.
+C: The temperature record is unreliable.",P2: Scientists don't know how to adjust for limitations.,"P2: Slothful induction, Red Herring"
+5.1.4.,Models are unreliable,Climate model predictions don't match observations. Therefore climate models are unreliable.,Cherry picking,Oversimplification,,,"P1: Climate model predictions don't match observations.
+C: Climate models are unreliable.","P2: If there's a discrepancy between models and observations, the models must be wrong.","P1: Cherry picking
+P2: Oversimplification"
+5.2.1.,Climate is a religion,The climate change movement have some trait in common with religion. Therefore the climate change movement is a religion and unscientific.,Misrepresentation,False equivalence,,,"P1: The climate change movement have some trait in common with religion.
+C: The climate change movement is a religion and unscientific.",P2: A movement that has any traits in common with a religion is a religion.,"P2: Misrepresentation
+P3: False equivalence"
+5.2.2.,Media is alarmist,Media portrayal of climate change supports the mainstream view. Therefore the media are biased and cannot be trusted.,Ad hominem,Misrepresentation,,,"P1: Media portrayal of climate change supports the mainstream view.
+C: The media are biased and cannot be trusted.","P2: If the media supports the mainstream view on climate change, they must be biased.","P2: Ad hominem, Misrepresentation"
+5.2.3.,Politicians are biased,Governments and politicians support the mainstream view on climate change. Therefore governments are biased and untrustworthy.,Ad hominem,Misrepresentation,,,"P1: Governments and politicians support the mainstream view on climate change.
+C: Governments are biased and untrustworthy.","P2: If governments or politicians support the mainstream view on climate change, they must be biased.","P2: Ad hominem, Misrepresentation"
+5.2.4.,Environmentalists are biased,Environmentalists get science wrong as they're not committed to science. Therefore environmentalists are biased and unreliable.,Ad hominem,,,,"P1: Environmentalists get science wrong as they're not committed to science.
+C: Environmentalists are biased and unreliable.",,P1: Ad hominem
+5.2.5.,Scientists are biased,Scientists act in biased or unethical ways. Therefore scientists and their science can't be trusted,Ad hominem,,,,"P1: Scientists act in biased or unethical ways.
+C: Scientists and their science can't be trusted",,P1: Ad hominem
+5.3.1.,Policy is a conspiracy,Governing bodies and corporations act secretly on climate policy. Therefore climate policy is part of a conspiracy.,Conspiracy theory,,,,"P1: Governing bodies and corporations act secretly on climate policy.
+C: Climate policy is part of a conspiracy.",P2: Secret actions by governing bodies and corporations must be for nefarious motives.,"P1: Conspiracy theory
+P2: Conspiracy theory"
+5.3.2.,Science is a conspiracy,Scientists have committed a range of conspiratorial actions to defend the mainstream view and suppress dissenting views. Therefore there is a conspiracy among scientists to deceive the public.,Conspiracy theory,,,,"P1: Scientists have committed a range of conspiratorial actions to defend the mainstream view and suppress dissenting views.
+C: There is a conspiracy among scientists to deceive the public.",,P1: Conspiracy theory

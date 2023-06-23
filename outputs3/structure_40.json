@@ -1,0 +1,18 @@
+{
+    "P1": {
+        "premise": "Media portrayal of climate change supports the mainstream view.",
+        "technique": "Red Herring",
+        "yes/no": "NO",
+        "explanation": "The premise is a statement of fact and does not divert attention from a more important point. It is not a red herring."
+    },
+    "C": "Therefore the media are biased and cannot be trusted.",
+    "A": "Media portrayal of climate change supports the mainstream view. Therefore the media are biased and cannot be trusted.",
+    "valid": "FALSE",
+    "reason": "This argument is logically invalid. Just because the media supports the mainstream view on climate change, it does not necessarily mean that they are biased and cannot be trusted. The argument presents a hasty generalization fallacy, assuming that all media outlets are biased based on the portrayal of one issue.",
+    "HP": {
+        "premise": "If the media is biased, then they cannot be trusted.",
+        "technique": "Contradictory",
+        "yes/no": "YES",
+        "explanation": "The premise is contradictory because it assumes that if the media is biased, then they cannot be trusted. However, bias does not necessarily mean that the media is untrustworthy. Bias can be acknowledged and accounted for, and media outlets can still provide accurate and reliable information despite their biases."
+    }
+}

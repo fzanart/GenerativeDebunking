@@ -1,0 +1,18 @@
+{
+    "P1": {
+        "premise": "Parts of Greenland's ice sheet are not melting.",
+        "technique": "False Choice",
+        "yes/no": "NO",
+        "explanation": "The statement does not present two options as the only possibilities, when other possibilities exist. It is simply a statement of fact that some parts of Greenland's ice sheet are not melting."
+    },
+    "C": "Therefore global warming is not happening.",
+    "A": "Parts of Greenland's ice sheet are not melting. Therefore global warming is not happening.",
+    "valid": "FALSE",
+    "reason": "This argument is logically invalid. The fact that only parts of Greenland's ice sheet are not melting does not negate the overwhelming evidence that global warming is happening. The argument ignores other indicators of global warming such as rising temperatures, sea level rise, and melting of other glaciers and ice sheets around the world.",
+    "HP": {
+        "premise": "The melting of Greenland's ice sheet is the only indicator of global warming.",
+        "technique": "Single Cause",
+        "yes/no": "YES",
+        "explanation": "The premise assumes that the melting of Greenland's ice sheet is the only indicator of global warming, which is a single cause fallacy. Global warming is a complex phenomenon that involves multiple indicators, such as rising temperatures, sea level rise, ocean acidification, and changes in precipitation patterns, among others."
+    }
+}

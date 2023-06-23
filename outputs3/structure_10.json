@@ -1,0 +1,18 @@
+{
+    "P1": {
+        "premise": "Heat is flowing from geothermal sources",
+        "technique": "Logical Fallacies",
+        "yes/no": "YES",
+        "explanation": "The statement is a non sequitur. The fact that heat is flowing from geothermal sources does not necessarily mean that it is the only source of heat or that it is the main cause of global warming. It is a logical fallacy to assume that one factor is responsible for a complex phenomenon without considering other factors that may contribute to it."
+    },
+    "C": "Warming is not caused by Humans",
+    "A": "Heat is flowing from geothermal sources. Therefore warming is not caused by Humans.",
+    "valid": "FALSE",
+    "reason": "This argument is logically invalid. The fact that heat is flowing from geothermal sources does not necessarily mean that warming is not caused by humans. The warming of the planet is a complex phenomenon that can have multiple causes, and the existence of one cause does not exclude the possibility of another. Therefore, the conclusion does not logically follow from the premise.",
+    "HP": {
+        "premise": "Geothermal sources are the only source of heat that can cause warming",
+        "technique": "False Choice",
+        "yes/no": "YES",
+        "explanation": "The statement presents only two options, geothermal sources or no source, when in reality there are multiple sources of heat that can cause warming, such as solar radiation, combustion of fossil fuels, and natural greenhouse gases."
+    }
+}

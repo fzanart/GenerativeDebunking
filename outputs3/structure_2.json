@@ -1,0 +1,18 @@
+{
+    "P1": {
+        "premise": "Arctic sea ice hasn't changed much in the short term",
+        "technique": "Logical Fallacies",
+        "yes/no": "YES",
+        "explanation": "The premise is an example of a logical fallacy known as cherry-picking. It selectively focuses on a short-term trend while ignoring the long-term trend. The long-term trend shows a significant decline in Arctic sea ice over the past few decades."
+    },
+    "C": "Arctic sea ice is fine",
+    "A": "In the short term, Arctic sea ice hasn't changed much. Therefore Arctic sea ice is fine.",
+    "valid": "FALSE",
+    "reason": "Just because Arctic sea ice hasn't changed much in the short term, it doesn't necessarily mean that it is fine in the long term. The long-term trend of Arctic sea ice decline is well-documented and supported by scientific evidence. Therefore, this argument is logically invalid.",
+    "HP": {
+        "premise": "Arctic sea ice should only be considered 'fine' if it remains stable in the long term.",
+        "technique": "False Choice",
+        "yes/no": "YES",
+        "explanation": "The statement presents only two options: either Arctic sea ice is 'fine' or it is not. However, there are other possibilities, such as Arctic sea ice being in a state of decline but still recoverable or in a state of decline but with the potential for stabilization in the future."
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "P1": {
+        "premise": "There's not enough evidence to know what's happening with climate change.",
+        "technique": "Slothful Induction",
+        "yes/no": "YES",
+        "explanation": "The premise is an example of slothful induction because it ignores the overwhelming evidence that exists on climate change. The scientific consensus is that climate change is happening and is caused by human activities, and this consensus is supported by a vast body of evidence from multiple fields of study. The premise also ignores the fact that uncertainty is a normal part of scientific inquiry, and that scientists are constantly working to reduce uncertainty through further research and analysis."
+    },
+    "C": "Therefore there's no scientific consensus on climate change.",
+    "A": "There's not enough evidence to know what's happening with climate change. Therefore there's no scientific consensus on climate change.",
+    "valid": "TRUE",
+    "reason": "If there is not enough evidence to know what's happening with climate change, then it is reasonable to conclude that there is no scientific consensus on the matter. The lack of evidence means that scientists cannot come to a consensus on the issue. Therefore, the conclusion follows logically from the premise."
+}

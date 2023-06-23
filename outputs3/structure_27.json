@@ -1,0 +1,18 @@
+{
+    "P1": {
+        "premise": "A single policy would have a negligible impact.",
+        "technique": "Single Cause",
+        "yes/no": "YES",
+        "explanation": "The premise assumes that a single policy is the only cause of change, ignoring the possibility of multiple policies or other factors that could contribute to the impact."
+    },
+    "C": "Therefore we should not have the policy.",
+    "A": "A single policy would have a negligible impact. Therefore we should not have the policy.",
+    "valid": "FALSE",
+    "reason": "This argument is logically invalid. The conclusion does not necessarily follow from the premise. Just because a single policy would have a negligible impact does not mean that we should not have the policy. There may be other reasons to have the policy, such as setting an example or laying the groundwork for future policies.",
+    "HP": {
+        "premise": "Only policies with significant impact are worth implementing.",
+        "technique": "False Dilemma",
+        "yes/no": "YES",
+        "explanation": "The premise presents a false dilemma by suggesting that only policies with significant impact are worth implementing, ignoring the possibility that policies with smaller impact can still be beneficial."
+    }
+}

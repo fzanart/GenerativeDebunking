@@ -1,0 +1,18 @@
+{
+    "P1": {
+        "premise": "Extreme weather happened in the past before recent global warming.",
+        "technique": "Single Cause",
+        "yes/no": "YES",
+        "explanation": "The premise assumes that because extreme weather events have happened in the past, they must be happening now for the same reason. This ignores the fact that there may be multiple causes for extreme weather events, including natural variability and human-induced climate change."
+    },
+    "C": "Therefore global warming is not linked to extreme weather.",
+    "A": "Extreme weather happened in the past before recent global warming. Therefore global warming is not linked to extreme weather.",
+    "valid": "FALSE",
+    "reason": "This argument is logically invalid. The fact that extreme weather events have occurred in the past does not necessarily mean that they are not linked to global warming. The conclusion does not logically follow from the premise. In fact, scientific evidence suggests that global warming is contributing to more frequent and severe extreme weather events.",
+    "HP": {
+        "premise": "If something happened in the past without a certain cause, it cannot be caused by that same thing now.",
+        "technique": "Single Cause",
+        "yes/no": "NO",
+        "explanation": "This premise is an example of the single cause fallacy. It assumes that there can only be one cause for a particular event, and that cause cannot change over time. However, this is not necessarily true. There can be multiple causes for an event, and the causes can change over time. Just because something happened in the past without a certain cause, it does not mean that the same thing cannot be caused by that same thing now. Therefore, this premise is not logically valid."
+    }
+}

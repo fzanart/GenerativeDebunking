@@ -1,0 +1,18 @@
+{
+    "P1": {
+        "premise": "Clean energy has costs on the economy and the environment.",
+        "technique": "Ambiguity",
+        "yes/no": "NO",
+        "explanation": "The premise is a statement that can be debated, but it is not ambiguous. It presents a clear claim that clean energy has costs on the economy and the environment."
+    },
+    "C": "Therefore clean energy is harmful.",
+    "A": "Clean energy has costs on the economy and the environment. Therefore clean energy is harmful.",
+    "valid": "FALSE",
+    "reason": "This argument is logically invalid. The fact that clean energy has costs on the economy and the environment does not necessarily mean that it is harmful. It is possible that the benefits of clean energy outweigh the costs, or that the costs can be mitigated through proper management and investment. Therefore, the conclusion does not logically follow from the premise.",
+    "HP": {
+        "premise": "Anything that has costs on the economy and the environment is harmful.",
+        "technique": "False Dichotomy",
+        "yes/no": "NO",
+        "explanation": "The premise presents a false dichotomy by suggesting that anything that has costs on the economy and the environment is harmful. This is not necessarily true, as there may be situations where the costs are outweighed by the benefits. For example, investing in renewable energy may have initial costs, but in the long run, it can have significant benefits for both the economy and the environment."
+    }
+}

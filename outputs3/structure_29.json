@@ -1,0 +1,18 @@
+{
+    "P1": {
+        "premise": "Developing countries are not doing enough to share the burden of reducing global emissions.",
+        "technique": "Cherry Picking",
+        "yes/no": "YES",
+        "explanation": "The premise is an example of cherry picking because it selectively focuses on the actions of developing countries while ignoring the actions of developed countries. Developed countries have historically contributed the most to global emissions and have a greater responsibility to reduce emissions. Additionally, many developing countries are taking significant steps to reduce emissions, but may not have the same resources or infrastructure as developed countries to do so."
+    },
+    "P2": {
+        "premise": "One country cutting emissions will make a negligible difference to global emissions.",
+        "technique": "False Choice",
+        "yes/no": "NO",
+        "explanation": "The premise is not presenting two options as the only possibilities, but rather making a statement about the impact of one country's emissions cuts on global emissions."
+    },
+    "C": "Therefore, one country reducing emissions is pointless.",
+    "A": "Developing countries are not doing enough to share the burden of reducing global emissions and one country cutting emissions will make a negligible difference to global emissions. Therefore one country reducing emissions is pointless.",
+    "valid": "TRUE",
+    "reason": "If it is true that developing countries are not doing enough to reduce global emissions and that one country cutting emissions will make a negligible difference to global emissions, then it logically follows that one country reducing emissions is pointless."
+}

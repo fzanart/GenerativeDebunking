@@ -1,0 +1,18 @@
+{
+    "P1": {
+        "premise": "There has been no warming over a short period of time.",
+        "technique": "Logical Fallacies",
+        "yes/no": "YES",
+        "explanation": "This statement is an example of the logical fallacy known as 'cherry picking'. It selectively focuses on a short period of time to support a particular argument while ignoring the larger trend of warming over a longer period of time."
+    },
+    "C": "Therefore, global warming is not happening.",
+    "A": "There's been no warming over a short period. Therefore global warming is not happening.",
+    "valid": "FALSE",
+    "reason": "This argument is logically invalid. The conclusion does not follow from the premise. Just because there has been no warming over a short period of time does not mean that global warming is not happening. Global warming refers to a long-term trend of increasing temperatures, not short-term fluctuations.",
+    "HP": {
+        "premise": "Global warming can only be determined by analyzing long-term trends, not short-term fluctuations.",
+        "technique": "Logical Fallacies",
+        "yes/no": "YES",
+        "explanation": "The premise is a valid statement. It is true that global warming can only be determined by analyzing long-term trends, not short-term fluctuations. This is because global warming refers to the long-term increase in the Earth's average surface temperature, and short-term fluctuations can be caused by a variety of factors that are not related to global warming. However, the premise is not a logical fallacy."
+    }
+}

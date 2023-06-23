@@ -1,0 +1,18 @@
+{
+    "P1": {
+        "premise": "Environmentalists are not committed to science",
+        "technique": "Ad Hominem",
+        "yes/no": "YES",
+        "explanation": "The argument attacks environmentalists instead of addressing their arguments."
+    },
+    "C": "Therefore, environmentalists are biased and unreliable",
+    "A": "Environmentalists get science wrong as they're not committed to science. Therefore environmentalists are biased and unreliable.",
+    "valid": "FALSE",
+    "reason": "This argument is logically invalid. The premise that environmentalists are not committed to science is a sweeping generalization and not necessarily true. Even if it were true, it does not necessarily follow that environmentalists are biased and unreliable. The conclusion is not supported by the premise.",
+    "HP": {
+        "premise": "Only those who are committed to science can be reliable in scientific matters.",
+        "technique": "Ad Hominem",
+        "yes/no": "NO",
+        "explanation": "The premise does not attack a person or group, but rather makes a statement about a group of people who are committed to science."
+    }
+}

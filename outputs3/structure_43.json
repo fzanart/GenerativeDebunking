@@ -1,0 +1,18 @@
+{
+    "P1": {
+        "premise": "Scientists act in biased or unethical ways.",
+        "technique": "Ad Hominem",
+        "yes/no": "YES",
+        "explanation": "The premise attacks the character of scientists instead of addressing their arguments."
+    },
+    "C": "Therefore scientists and their science can't be trusted",
+    "A": "Scientists act in biased or unethical ways. Therefore scientists and their science can't be trusted",
+    "valid": "FALSE",
+    "reason": "This argument is logically invalid. The fact that some scientists may act in biased or unethical ways does not mean that all scientists and their science cannot be trusted. It is possible for scientists to act ethically and produce trustworthy science. The conclusion does not logically follow from the premise.",
+    "HP": {
+        "premise": "If someone acts in biased or unethical ways, their work can't be trusted.",
+        "technique": "Ad Hominem",
+        "yes/no": "YES",
+        "explanation": "The statement attacks the person's character instead of addressing the argument. It implies that the person's work is untrustworthy solely because of their biased or unethical behavior, without providing any evidence to support this claim."
+    }
+}
