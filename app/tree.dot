@@ -1,0 +1,24 @@
+digraph tree {
+	"claims" [label="Claims 46", shape=plain]
+	"PRED" [label="Pred 86", shape=plain]
+	"TRUE" [label="True 122", shape=plain]
+	"PRED_explicit" [label="explicit 58", shape=plain]
+	"PRED_hidden" [label="hidden 28", shape=plain]
+	"TRUE_explicit" [label="explicit 57", shape=plain]
+	"TRUE_hidden" [label="hidden 65", shape=plain]
+	"PRED_explicit_c" [label="correct 34", shape=plain]
+	"PRED_explicit_i" [label="incorrect 24", shape=plain]
+	"PRED_hidden_c" [label="correct 5", shape=plain]
+	"PRED_hidden_i" [label="incorrect 23", shape=plain]
+
+	"claims" -> "TRUE"
+	"claims" -> "PRED"
+	"PRED" -> "PRED_explicit"
+	"PRED" -> "PRED_hidden"
+	"TRUE" -> "TRUE_explicit"
+	"TRUE" -> "TRUE_hidden"
+	"PRED_explicit" -> "PRED_explicit_c"
+	"PRED_explicit" -> "PRED_explicit_i"
+	"PRED_hidden" -> "PRED_hidden_c"
+	"PRED_hidden" -> "PRED_hidden_i"
+}

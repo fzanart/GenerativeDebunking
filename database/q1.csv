@@ -1,0 +1,7 @@
+claims_id,claims_text,true_premise_id,true_premise,true_premise_identifier,true_fallacy_id,true_fallacy_text,pred_premise_id,pred_premise,pred_premise_identifier,pred_fallacy_id,pred_fallacy_text
+1,Antarctic sea ice is increasing. Therefore global warming is not happening.,1,Antarctica is cooling.,P1,1,cherry picking,4,Antarctic sea ice is increasing,P1,3,Cherry Picking
+1,Antarctic sea ice is increasing. Therefore global warming is not happening.,2,Sea ice is increasing.,P2,2,slothful induction,,,,,
+1,Antarctic sea ice is increasing. Therefore global warming is not happening.,3,Global warming is not happening,C,,,5,Therefore global warming is not happening,C,,
+1,Antarctic sea ice is increasing. Therefore global warming is not happening.,4,Cooling is the only driver of sea ice gain therefore global warming is not happening,P3,3,impossible expectations,,,,,
+1,Antarctic sea ice is increasing. Therefore global warming is not happening.,4,Cooling is the only driver of sea ice gain therefore global warming is not happening,P3,4,single cause,,,,,
+,,,,,,,6,Antarctic sea ice is a reliable indicator of global warming,HP,4,No fallacy.

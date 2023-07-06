@@ -1,0 +1,25 @@
+digraph tree {
+	rankdir=LR;
+	"claims" [label="Claims \n46", shape=plain]
+	"PRED" [label="Pred \n86", shape=plain]
+	"TRUE" [label="True \n122", shape=plain]
+	"PRED_explicit" [label="explicit \n58", shape=plain]
+	"PRED_hidden" [label="hidden \n28", shape=plain]
+	"TRUE_explicit" [label="explicit \n57", shape=plain]
+	"TRUE_hidden" [label="hidden \n65", shape=plain]
+	"PRED_explicit_c" [label="correct \n34", shape=plain]
+	"PRED_explicit_i" [label="incorrect \n24", shape=plain]
+	"PRED_hidden_c" [label="correct \n5", shape=plain]
+	"PRED_hidden_i" [label="incorrect \n23", shape=plain]
+
+	"claims" -> "TRUE"
+	"claims" -> "PRED"
+	"PRED" -> "PRED_explicit"
+	"PRED" -> "PRED_hidden"
+	"TRUE" -> "TRUE_explicit"
+	"TRUE" -> "TRUE_hidden"
+	"PRED_explicit" -> "PRED_explicit_c"
+	"PRED_explicit" -> "PRED_explicit_i"
+	"PRED_hidden" -> "PRED_hidden_c"
+	"PRED_hidden" -> "PRED_hidden_i"
+}
